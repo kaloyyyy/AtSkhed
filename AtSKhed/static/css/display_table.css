@@ -1,0 +1,126 @@
+.table-container {
+    max-width: 100%;
+    max-height: 600px;
+    overflow: auto;
+    margin: 0;
+}
+
+.table-title{
+    color: #063d67;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+        /* Style table headers */
+.offspring-table th {
+    border: hidden;
+    padding: 8px;
+}
+
+.table-container td {
+    width: 100%;
+    border: 1px solid black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+
+.offspring-table .blue-row {
+    background-color: #075186;
+    color: white; /* Change text color to contrast with the background */
+
+}
+
+.offspring-table{
+    color: white;
+}
+
+
+.offspring-table .monday-row {
+    background-color: rgba(238, 67, 67, 0.88);
+
+}
+
+.offspring-table .tuesday-row {
+    background-color: rgba(0, 128, 0, 0.82);
+}
+
+.offspring-table .wednesday-row{
+    background-color: rgba(213, 139, 50, 0.76);
+}
+
+.offspring-table .thursday-row{
+    background-color: rgba(154, 91, 220, 0.85);
+}
+
+.offspring-table .friday-row{
+    background-color: rgba(36, 128, 128, 0.83);
+}
+
+.offspring-table .saturday-row{
+    background-color: rgba(163, 168, 1, 0.8);
+}
+
+.schedule-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.course-btn,
+.excel-btn {
+    background-color: #063d67;
+    border: none;
+    padding: 10px 20px; /* Adjust padding as needed */
+    color: white;
+    margin: 0 10px; /* Adjust margin between buttons as needed */
+    border-radius: 5px;
+    transition: .5s ease;
+}
+
+.course-btn:hover,
+.excel-btn:hover{
+    background-color: #075186;
+}
+
+.loading .loading-icon{
+    text-align: center;
+    font-size: 20px;
+    color: #063d67;
+}
+
+
+/*Prospectus*/
+.program-name{
+    margin-top: 50px;
+}
+.statistics-table th,
+.statistics-table thead{
+    border: 1px solid black;
+    padding: 8px;
+    background-color: #063d67;
+    color: white;
+}
+
+
+.program-name{
+    color: #063d67;
+}
+.table-container table td{
+    width: 100%;
+    transition: 0.3s ease;
+}
+
+.table-container table td:hover {
+    background-color: #075186;
+    color: #ffffff;
+}
+
